@@ -10,9 +10,13 @@ flask
 
 
 mkdir whatsapp-chatbot
+
 cd whatsapp-bot
+
 virtualenv env #create a virtual environment
+
 source env/bin/activate
+
 (env) $ pip3 install twilio flask requests
 
 
