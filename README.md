@@ -1,24 +1,20 @@
 #whatsapp_chatbot
 
-#prerequisites 
+You need to install 
+ python 3.6 and above, twilio, flask and ngrok in your laptop
 
-python 3.6 and above 
 
-twilio 
+mkdir whatsapp-chatbot #create a directory for our chatbot
 
-flask
-
-ngrok
-
-mkdir whatsapp-chatbot
-
-cd whatsapp-bot
+cd whatsapp-bot #navigate into the chabot directory you created
 
 virtualenv env #create a virtual environment
 
-source env/bin/activate
+source env/bin/activate #activate the virtual environment
 
-(env) $ pip3 install twilio flask requests
+(env) $ pip3 install twilio flask requests #install twilio inside the virtual environment
+
+#usage
 
 On Twilio Console, click on Programmable SMS, then on WhatsApp, and finally on Sandbox. 
 Copy the https:// URL from the ngrok output and then paste it on the “When a message comes in” field.
