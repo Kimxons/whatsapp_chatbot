@@ -14,6 +14,8 @@ source env/bin/activate #activate the virtual environment
 
 (env) $ pip3 install twilio flask requests #install twilio inside the virtual environment
 
+ngrok http {port} e.g ngrok http 5000 # To expose a web server on port 5000 of your local machine to the internet
+
 #usage
 
 On Twilio Console, click on Programmable SMS, then on WhatsApp, and finally on Sandbox. 
