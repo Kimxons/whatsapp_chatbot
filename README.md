@@ -10,7 +10,6 @@ flask
 
 ngrok
 
-
 mkdir whatsapp-chatbot
 
 cd whatsapp-bot
