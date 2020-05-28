@@ -3,7 +3,6 @@
 You need to install 
  python 3.6 and above, twilio, flask and ngrok in your laptop
 
-
 mkdir whatsapp-chatbot #create a directory for our chatbot
 
 cd whatsapp-bot #navigate into the chabot directory you created
@@ -17,7 +16,6 @@ source env/bin/activate #activate the virtual environment
 ngrok http {port} e.g ngrok http 5000 # To expose a web server on port 5000 of your local machine to the internet
 
 #usage
-
 On Twilio Console, click on Programmable SMS, then on WhatsApp, and finally on Sandbox. 
 Copy the https:// URL from the ngrok output and then paste it on the “When a message comes in” field.
 Our chatbot is exposed under the / URL. Make sure the request method is set to HTTP Post. 
