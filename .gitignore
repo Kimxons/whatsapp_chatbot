@@ -1,2 +1,7 @@
 *.env
 *.cfg
+lib/
+__pycache__/
+build/
+dist/
+.installed.cfg
